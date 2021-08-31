@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+
+    </head>
+
+    <body>
+    <form method="POST" action="add.php">
+      <table>
+        <tr>
+          <td>Nom : </td>
+          <td><input type="text" name="nom"></td>
+        </tr>
+        <tr>
+          <td>Prenom : </td>
+          <td><input type="text" name="prenom"></td>
+        </tr>
+        <tr>
+          <td>Date de naissance : </td>
+          <td><input type="date" name="dateNaissance"></td>
+        </tr>
+        <tr>
+          <td>Adresse e-mail : </td>
+          <td><input type="email" name="mail"></td>
+        </tr>
+        <tr>
+          <td>Choisissez votre sexe : </td>
+          <td>
+            <input type="radio" name="sexe" value="femme"/> Femme
+            <input type="radio" name="sexe" value="homme"/> Homme
+          </td>
+        </tr>
+        <tr>
+          <td>Adresse : </td>
+          <td><input type="text" name="adresse"></td>
+        </tr>
+        <tr>
+          <td>Mot de passe : </td>
+          <td><input type="password" name="mdp"></td>
+        </tr>
+        <tr>
+          <td>Confirmation mot de passe : </td>
+          <td><input type="password" name="cmdp"></td>
+        </tr>
+        <tr>
+          <td>Vous etes :</td>
+            <td>
+              <input type="radio" name="role" value="1"/> Administrateur
+              <input type="radio" name="role" value="2"/> Client
+              <input type="radio" name="role" value="3"/> Livreur
+            </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="submit" name="Submit" value="ajouter"></td>
+        </tr>
+      </table>
+    </form>
+    </body>
+  </html>﻿

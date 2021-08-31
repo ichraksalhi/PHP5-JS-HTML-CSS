@@ -1,0 +1,16 @@
+{
+    "name": "acme/takwa-zayene",
+    "description": "takwa",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "takwa zayene",
+            "email": "zayenetakwa@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "nexmo/client": "^1.7"
+    }
+}
